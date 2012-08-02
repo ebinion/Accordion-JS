@@ -1,2 +1,1 @@
-#AccordianJS
-A Jquery plugin to create vertical accordian menus. This plugin will be open source licensed via MIT.
+(function(e){e.fn.accordianjs=function(){return this.each(function(){e(this).children("li").children("a").bind("click",function(t){t.preventDefault();if(e(this).siblings("ul").hasClass("ajsToggled")===!1){e(".ajsToggled").removeClass("ajsToggled").slideUp();e(this).siblings("ul").addClass("ajsToggled").slideDown()}else e(this).siblings("ul").removeClass("ajsToggled").slideUp()})})}})(jQuery);
