@@ -1,3 +1,11 @@
+/*
+* AccordionJS
+* Author: Ezekiel Binion
+* URL: http://ezekielbinion.com
+*
+Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php 
+*/
+
 (function($){
 	$.fn.accordianjs = function() {
 		return this.each(function(){
