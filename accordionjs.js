@@ -7,7 +7,7 @@ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.p
 */
 
 (function($){
-	$.fn.accordianjs = function() {
+	$.fn.accordionjs = function() {
 		return this.each(function(){
 			$(this).children('li').children('a').bind('click', function(e){
 					e.preventDefault();
