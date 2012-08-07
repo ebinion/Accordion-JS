@@ -15,12 +15,13 @@
 					e.preventDefault();
 					if( $(this).siblings('ul').hasClass('ajsToggled') === false )
 					{
-						// Close upen menus
+						// Close open menus
 						$('.ajsToggled').removeClass('ajsToggled').slideUp();
 						// Open selected Menu
 						$(this).siblings('ul').addClass('ajsToggled').slideDown();
 					}
 					else{
+						// The menu is already open, let's close this menu
 						$(this).siblings('ul').removeClass('ajsToggled').slideUp();
 					}
 				}
